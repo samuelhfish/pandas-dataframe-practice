@@ -1,7 +1,9 @@
 # pandas-challenge
 Module 4 Data Viz HW
 
-All code and data visualizations are viewable in "pandas-challenge/PyCitySchools/main.ipynb"
+All code and data visualizations are viewable in "PyCitySchools" folder.
+
+The jupyter notebook is "pandas-challenge/PyCitySchools/main.ipynb".
 
 # Written Report
 
