@@ -1,11 +1,20 @@
-# pandas-challenge
-Module 4 Data Viz HW
+# pandas-dataframe-practice
+Practicing using Pandas DataFrames with school and standardized test data.
+
+## The goals of this exercise are to:
+- Analyze district-wide standardized test results.\
+- Aggregate data to observe any trends in school performance.
+- Identify total number of schools, students, budget.
+- Calculate average scores.
+- Calcultate percentage of students passing.
 
 All code and data visualizations are viewable in "PyCitySchools" folder.
 
-The jupyter notebook is "pandas-challenge/PyCitySchools/main.ipynb".
+Original data sources are located in the "Resources" folder.
 
-# Written Report
+The jupyter notebook is "pandas-dataframe-practice/PyCitySchools/main.ipynb".
+
+## Written Report
 
 Our report covered a total of 15 different schools with 39,170 students and a total budget $24,649,428.00 and we were able to calculate, amongst many data points, average scores, average passing rates, school sizes and budget per individual school and student.
 
