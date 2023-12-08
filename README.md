@@ -348,7 +348,7 @@ type_summary
 ```
 <img width="627" alt="Screenshot 2023-12-08 at 2 39 00 PM" src="https://github.com/samuelhfish/pandas-dataframe-practice/assets/125224990/53d22cfe-d959-4c6f-ac26-57433b65a6c2">
 
-**Only key code and results are inlcuded in readme for brevity, for full code and results see main.ipyn notebook in PyCitySchools folder.**
+**Only key code and results are inlcuded in readme for brevity, for full code and results see "main.ipynb" notebook in "PyCitySchools" folder.**
 
 
 
