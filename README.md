@@ -2,7 +2,7 @@
 Practicing using Pandas DataFrames with school and standardized test data.
 
 ## The goals of this exercise are to:
-- Analyze district-wide standardized test results.\
+- Analyze district-wide standardized test results.
 - Aggregate data to observe any trends in school performance.
 - Identify total number of schools, students, budget.
 - Calculate average scores.
@@ -23,3 +23,26 @@ Within this data, there were several categories that we were able to base intere
 A surprising takeaway from this was that there is actually a reverse correlation with amount spent per student and % of overall students passing. However, this makes more sense when you see that the largest schools had the largest total budgets and budget per student.
 
 The smaller size schools directly correlated with higher passing rates which is very interesting insight. Similarly, charter schools have the same correlation. While this could be attributable  to factors such as teaching style and curriculum, our data shows this could be attributable to the fact the class sizes in charter schools are simply smaller.
+
+## Code Excerpts
+
+```python
+
+# Dependencies and Setup
+import pandas as pd
+
+# File to Load
+school_data_to_load = "Resources/schools_complete.csv"
+student_data_to_load = "Resources/students_complete.csv"
+
+# Read School and Student Data File and store into Pandas DataFrames
+school_data = pd.read_csv(school_data_to_load)
+student_data = pd.read_csv(student_data_to_load)
+
+# Combine the data into a single dataset.  
+school_data_complete = pd.merge(student_data, school_data, how="left", on=["school_name", "school_name"])
+result = school_data_complete.head().to_html()
+print(result)
+
+```
+
